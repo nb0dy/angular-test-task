@@ -1,6 +1,6 @@
 import {inject, Injectable} from '@angular/core';
 import {OrderApiService} from "./order-api.service";
-import {PriceApiService, TPrice} from "./websocket.service";
+import {PriceApiService, TPrice} from "./price-api.service";
 import {OrderGroup, Order} from "./order.model";
 import {BehaviorSubject, map, switchMap } from "rxjs";
 import {MatSnackBar} from "@angular/material/snack-bar";
